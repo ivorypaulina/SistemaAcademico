@@ -7,9 +7,11 @@ public class MainPagos {
         Transferencia transferencia = new Transferencia();
 
         efectivo.procesarPago(50);
+
         System.out.println();
 
         tarjeta.procesarPago(100);
+
         System.out.println();
 
         transferencia.procesarPago(200);

@@ -1,10 +1,10 @@
-public class Transferencia implements Pegable{
+public class Transferencia implements Pagable{
     private final double comision = 1.0;
 
     @Override
     public void procesarPago(double monto){
         if (monto <= 0){
-            System.out.println("Error: el monto debe ser mayor a cero.");
+            System.out.println ("Error: el monto debe ser mayor a cero.");
             return;
         }
 

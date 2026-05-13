@@ -1,3 +1,3 @@
 public interface Pagable {
-    void procesarPago(double monto);
+    void procesarPago (double monto);
 }
