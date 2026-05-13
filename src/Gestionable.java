@@ -1,3 +1,3 @@
-public interface Gestionable {
+public interface Gestionable{
     void gestionarDatos();
 }

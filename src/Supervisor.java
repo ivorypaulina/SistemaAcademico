@@ -12,6 +12,6 @@ public class Supervisor implements Autenticable, Reportable {
 
     @Override
     public void generarReporte() {
-        System.out.println ("El supervisor generó un reporte de supervisión.");
+        System.out.println("El supervisor generó un reporte de supervisión.");
     }
 }

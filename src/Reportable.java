@@ -1,3 +1,3 @@
-public interface Reportable {
+public interface Reportable{
     void generarReporte();
 }

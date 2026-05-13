@@ -58,7 +58,7 @@ public class MainRoles {
                 break;
 
             default:
-                System.out.println("Opción inválida.");
+                System.out.println ("Opción inválida.");
         }
 
         sc.close();

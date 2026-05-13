@@ -12,6 +12,6 @@ public class Cajero implements Autenticable, Gestionable {
 
     @Override
     public void gestionarDatos() {
-        System.out.println("El cajero está gestionando pagos y cobros.");
+        System.out.println ("El cajero está gestionando pagos y cobros.");
     }
 }

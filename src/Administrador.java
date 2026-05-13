@@ -12,7 +12,7 @@ public class Administrador implements Autenticable, Reportable, Gestionable {
 
     @Override
     public void generarReporte() {
-        System.out.println ("El administrador generó un reporte general.");
+        System.out.println("El administrador generó un reporte general.");
     }
 
     @Override
